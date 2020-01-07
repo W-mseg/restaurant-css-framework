@@ -1,54 +1,84 @@
-$primary-yellow: #FCE45A;
-$second-blue: #6AACEE;
-$third-white: #CFBFF7;
-$fourth-gray: #212529;
-body{
-    background-color: white;
+/*-----FONT-----*/
+
+h1,
+h2,
+h3,
+h4,
+nav {
+  font-family: "Mouse Memoirs", sans-serif;
+}
+
+p{
+    font-size: 130%;
+}
+
+/*-----NAVBAR-----*/
+
+nav {
+  img {
+    width: 100px;
+    padding-right: 40px;
+  }
+  a{
+      font-size: 2em;
+  }
+}
+
+/*-----MAIN-----*/
+main {
+  .jumbotron {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+      url(./../ressources/hero.jpg);
+    color: white;
+    background-size: cover;
+    background-position: center;
+    height: 30em;
+    background-attachment: fixed;
+  }
+
+  section{
+    padding: 1em;
+  }
+
+  h2{
+      padding: 1em 0;
+  }
+
+  .promos {
     
+    background-color: rgb(231, 231, 231);
+  }
+
 }
 
-.jumbotron{
-    background-color: $third-white !important;
-    padding: 20px;
-}
-footer{
-    background-color: $fourth-gray;
-    color: $second-blue;
-    
-}
-.S1{
-    background-color: $third-white;
-    p{
-        display: flex;
-        justify-content: center;
+/*-----CARDs-----*/
+
+.card {
+    margin: 1em;
+  img {
+    opacity: 0.7;
+    filter: alpha(opacity=40);
+    transition: opacity 0.5s , filter 0.5S;
+  }
+
+  .card-body {
+    display: none;
+
+  }
+
+  &:hover {
+      img{
+        opacity: 1;
+    filter: alpha(opacity=0);  
+      }
+    .card-body {
+      display: block;
     }
-    img{
-        display: flex;
-        margin-right: auto;
-        margin-left: auto;
-    }
-}
-main{
-    margin-bottom: 50px;
+  }
 }
 
-.B-B{
-background-color: $second-blue;
-}
+/*-----FOOTER-----*/
 
-section{
-    margin-top: 100px;
-    margin-bottom: 75px;
-
-    h2{
-        margin: 40px;
-        padding-top: 20px;
-    }
-}
-
-.row{
-
-    div{
-        border: 2px solid black;
-    }
+footer {
+  color: white;
 }
