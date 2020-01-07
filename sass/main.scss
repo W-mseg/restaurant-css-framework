@@ -13,7 +13,10 @@ nav {
 nav {
   img {
     width: 100px;
-    padding-right: 20px;
+    padding-right: 40px;
+  }
+  a{
+      font-size: 2em;
   }
 }
 
@@ -25,7 +28,7 @@ main {
     color: white;
     background-size: cover;
     background-position: center;
-    height: 20em;
+    height: 30em;
     background-attachment: fixed;
   }
 
