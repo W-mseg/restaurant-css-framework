@@ -1,23 +1,23 @@
-$primary-yellow: #FCD901;
+$primary-yellow: #FCE45A;
 $second-blue: #6AACEE;
-$third-red: #CC132A;
-$fourth-orange: #F46036;
-$fifth-white: #F9F2E8;
+$third-white: #CFBFF7;
+$fourth-gray: #212529;
 body{
-    background-color: $primary-yellow;
+    background-color: white;
     
 }
 
 .jumbotron{
-    background-color: $fifth-white !important;
-    
+    background-color: $third-white !important;
+    padding: 20px;
 }
 footer{
-    background-color: $third-red;
+    background-color: $fourth-gray;
+    color: $second-blue;
     
 }
 .S1{
-    background-color: $fifth-white;
+    background-color: $third-white;
     p{
         display: flex;
         justify-content: center;
@@ -31,9 +31,24 @@ footer{
 main{
     margin-bottom: 50px;
 }
-.Y-B{
-background-color: orange;
-}
+
 .B-B{
-background-color: blueviolet;
+background-color: $second-blue;
+}
+
+section{
+    margin-top: 100px;
+    margin-bottom: 75px;
+
+    h2{
+        margin: 40px;
+        padding-top: 20px;
+    }
+}
+
+.row{
+
+    div{
+        border: 2px solid black;
+    }
 }

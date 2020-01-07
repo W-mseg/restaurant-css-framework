@@ -1,17 +1,19 @@
 body {
-  background-color: #FCD901;
+  background-color: white;
 }
 
 .jumbotron {
-  background-color: #F9F2E8 !important;
+  background-color: #CFBFF7 !important;
+  padding: 20px;
 }
 
 footer {
-  background-color: #CC132A;
+  background-color: #212529;
+  color: #6AACEE;
 }
 
 .S1 {
-  background-color: #F9F2E8;
+  background-color: #CFBFF7;
 }
 
 .S1 p {
@@ -35,11 +37,21 @@ main {
   margin-bottom: 50px;
 }
 
-.Y-B {
-  background-color: orange;
+.B-B {
+  background-color: #6AACEE;
 }
 
-.B-B {
-  background-color: blueviolet;
+section {
+  margin-top: 100px;
+  margin-bottom: 75px;
+}
+
+section h2 {
+  margin: 40px;
+  padding-top: 20px;
+}
+
+.row div {
+  border: 2px solid black;
 }
 /*# sourceMappingURL=main.css.map */
