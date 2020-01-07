@@ -1,45 +1,22 @@
-body {
-  background-color: #FCD901;
+/*-----FONT-----*/
+h1, h2, h3, h4, nav {
+  font-family: 'Mouse Memoirs', sans-serif;
 }
 
-.jumbotron {
-  background-color: #F9F2E8 !important;
+/*-----NAVBAR-----*/
+nav img {
+  width: 100px;
+  padding-right: 20px;
 }
 
-footer {
-  background-color: #CC132A;
-}
-
-.S1 {
-  background-color: #F9F2E8;
-}
-
-.S1 p {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-}
-
-.S1 img {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  margin-right: auto;
-  margin-left: auto;
-}
-
-main {
-  margin-bottom: 50px;
-}
-
-.Y-B {
-  background-color: orange;
-}
-
-.B-B {
-  background-color: blueviolet;
+/*-----MAIN-----*/
+main .jumbotron {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.7)), to(rgba(0, 0, 0, 0.7))), url(/ressources/hero.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(/ressources/hero.jpg);
+  color: white;
+  background-size: cover;
+  background-position: center;
+  height: 70vh;
+  background-attachment: fixed;
 }
 /*# sourceMappingURL=main.css.map */

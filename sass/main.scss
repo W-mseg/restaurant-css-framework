@@ -1,0 +1,29 @@
+/*-----FONT-----*/
+
+h1 , h2 , h3 , h4 , nav {
+    font-family: 'Mouse Memoirs', sans-serif;
+}
+
+
+/*-----NAVBAR-----*/
+
+nav {
+  img {
+    width: 100px;
+    padding-right: 20px;
+  }
+}
+
+
+/*-----MAIN-----*/
+main {
+  .jumbotron {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+      url(/ressources/hero.jpg);
+    color: white;
+    background-size: cover;
+    background-position: center;
+    height: 70vh;
+    background-attachment: fixed;
+  }
+}
