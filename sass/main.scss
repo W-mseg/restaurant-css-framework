@@ -3,7 +3,16 @@ $second-blue: #6AACEE;
 $third-red: #CC132A;
 $fourth-orange: #F46036;
 $fifth-white: #F9F2E8;
-
 body{
     background-color: $primary-yellow;
+}
+.jumbotron{
+    background-color: $fifth-white !important;
+
+}
+footer{
+    background-color: $third-red;
+}
+.S1{
+    background-color: $fifth-white;
 }

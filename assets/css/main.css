@@ -1,4 +1,16 @@
 body {
   background-color: #FCD901;
 }
+
+.jumbotron {
+  background-color: #F9F2E8 !important;
+}
+
+footer {
+  background-color: #CC132A;
+}
+
+.S1 {
+  background-color: #F9F2E8;
+}
 /*# sourceMappingURL=main.css.map */
