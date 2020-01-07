@@ -1,9 +1,12 @@
 /*-----FONT-----*/
 
-h1 , h2 , h3 , h4 , nav {
-    font-family: 'Mouse Memoirs', sans-serif;
+h1,
+h2,
+h3,
+h4,
+nav {
+  font-family: "Mouse Memoirs", sans-serif;
 }
-
 
 /*-----NAVBAR-----*/
 
@@ -14,7 +17,6 @@ nav {
   }
 }
 
-
 /*-----MAIN-----*/
 main {
   .jumbotron {
@@ -23,7 +25,47 @@ main {
     color: white;
     background-size: cover;
     background-position: center;
-    height: 70vh;
+    height: 20em;
     background-attachment: fixed;
   }
+
+  .promos {
+    padding: 1em;
+  }
+
+  .news {
+    background-color: rgb(231, 231, 231);
+    padding: 1em;
+  }
+}
+
+/*-----CARDs-----*/
+
+.card {
+  img {
+    opacity: 0.7;
+    filter: alpha(opacity=40);
+    transition: opacity 0.5s , filter 0.5S;
+  }
+
+  .card-body {
+    display: none;
+
+  }
+
+  &:hover {
+      img{
+        opacity: 1;
+    filter: alpha(opacity=0);  
+      }
+    .card-body {
+      display: block;
+    }
+  }
+}
+
+/*-----FOOTER-----*/
+
+footer {
+  color: white;
 }
