@@ -18,4 +18,22 @@ footer{
 }
 .S1{
     background-color: $fifth-white;
+    p{
+        display: flex;
+        justify-content: center;
+    }
+    img{
+        display: flex;
+        margin-right: auto;
+        margin-left: auto;
+    }
+}
+main{
+    margin-bottom: 50px;
+}
+.Y-B{
+background-color: orange;
+}
+.B-B{
+background-color: blueviolet;
 }

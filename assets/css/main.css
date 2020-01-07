@@ -13,4 +13,33 @@ footer {
 .S1 {
   background-color: #F9F2E8;
 }
+
+.S1 p {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.S1 img {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+main {
+  margin-bottom: 50px;
+}
+
+.Y-B {
+  background-color: orange;
+}
+
+.B-B {
+  background-color: blueviolet;
+}
 /*# sourceMappingURL=main.css.map */
