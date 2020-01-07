@@ -7,6 +7,10 @@ nav {
   font-family: "Mouse Memoirs", sans-serif;
 }
 
+p {
+  font-size: 130%;
+}
+
 /*-----NAVBAR-----*/
 nav img {
   width: 100px;
@@ -28,16 +32,23 @@ main .jumbotron {
   background-attachment: fixed;
 }
 
-main .promos {
+main section {
   padding: 1em;
 }
 
-main .news {
+main h2 {
+  padding: 1em 0;
+}
+
+main .promos {
   background-color: #e7e7e7;
-  padding: 1em;
 }
 
 /*-----CARDs-----*/
+.card {
+  margin: 1em;
+}
+
 .card img {
   opacity: 0.7;
   filter: alpha(opacity=40);
