@@ -50,25 +50,33 @@ main .promos {
 }
 
 .card img {
-  opacity: 0.7;
-  filter: alpha(opacity=40);
-  -webkit-transition: opacity 0.5s , -webkit-filter 0.5S;
-  transition: opacity 0.5s , -webkit-filter 0.5S;
-  transition: opacity 0.5s , filter 0.5S;
-  transition: opacity 0.5s , filter 0.5S , -webkit-filter 0.5S;
+  -webkit-transition: -webkit-filter 0.5S;
+  transition: -webkit-filter 0.5S;
+  transition: filter 0.5S;
+  transition: filter 0.5S, -webkit-filter 0.5S;
 }
 
 .card .card-body {
   display: none;
 }
 
+.card .card-img-overlay {
+  visibility: hidden;
+  color: white;
+}
+
 .card:hover img {
   opacity: 1;
-  filter: alpha(opacity=0);
+  -webkit-filter: brightness(30%);
+          filter: brightness(30%);
 }
 
 .card:hover .card-body {
   display: block;
+}
+
+.card:hover .card-img-overlay {
+  visibility: visible;
 }
 
 /*-----FOOTER-----*/

@@ -56,9 +56,8 @@ main {
 .card {
     margin: 1em;
   img {
-    opacity: 0.7;
-    filter: alpha(opacity=40);
-    transition: opacity 0.5s , filter 0.5S;
+
+    transition: filter 0.5S;
   }
 
   .card-body {
@@ -66,13 +65,22 @@ main {
 
   }
 
+  .card-img-overlay{
+    visibility: hidden;
+    color: white;
+  }
+
   &:hover {
       img{
         opacity: 1;
-    filter: alpha(opacity=0);  
+    filter: brightness(30%);;  
       }
     .card-body {
       display: block;
+    }
+
+    .card-img-overlay{
+      visibility: visible;
     }
   }
 }
