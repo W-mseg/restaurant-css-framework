@@ -83,4 +83,10 @@ main .promos {
 footer {
   color: white;
 }
+
+.container-fluid {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  width: 750px;
+}
 /*# sourceMappingURL=main.css.map */
