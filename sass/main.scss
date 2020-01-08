@@ -93,18 +93,31 @@ footer {
   color: white;
 }
 
-.container-fluid{
-  padding-top: 30px;
-  padding-bottom: 50px;
-  width: 750px;
-
-    h2{
-    padding: 0;
+.photos{
+  .container-md{
+    padding-top: 15px;
     padding-bottom: 20px;
-    margin: 0;
+    margin-left: auto;
+    margin-right: auto;
+    min-height: 100vh;
+    
+      h2{
+      
+      padding-top: 10px;
+      padding-bottom: 10px;
+      
+    }
+
+      ul{
+        margin-top: 20px;
+        margin-right: auto;
+        margin-left: auto;
+      }
+
+      .carousel{
+        margin-left: auto;
+        margin-right: auto;
+      }
   }
-
+  
 }
-
-  
-  

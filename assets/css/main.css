@@ -88,15 +88,27 @@ footer {
   color: white;
 }
 
-.container-fluid {
-  padding-top: 30px;
-  padding-bottom: 50px;
-  width: 750px;
+.photos .container-md {
+  padding-top: 15px;
+  padding-bottom: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  min-height: 100vh;
 }
 
-.container-fluid h2 {
-  padding: 0;
-  padding-bottom: 20px;
-  margin: 0;
+.photos .container-md h2 {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.photos .container-md ul {
+  margin-top: 20px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.photos .container-md .carousel {
+  margin-left: auto;
+  margin-right: auto;
 }
 /*# sourceMappingURL=main.css.map */
