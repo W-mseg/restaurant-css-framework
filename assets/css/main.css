@@ -50,14 +50,19 @@ main .promos {
 }
 
 .card img {
-  -webkit-transition: -webkit-filter 0.5S;
-  transition: -webkit-filter 0.5S;
-  transition: filter 0.5S;
-  transition: filter 0.5S, -webkit-filter 0.5S;
+  -webkit-transition: -webkit-filter 0.5s;
+  transition: -webkit-filter 0.5s;
+  transition: filter 0.5s;
+  transition: filter 0.5s, -webkit-filter 0.5s;
 }
 
 .card .card-body {
   display: none;
+}
+
+.card .card-align {
+  position: absolute;
+  bottom: 0;
 }
 
 .card .card-img-overlay {

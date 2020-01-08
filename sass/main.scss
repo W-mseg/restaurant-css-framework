@@ -8,8 +8,8 @@ nav {
   font-family: "Mouse Memoirs", sans-serif;
 }
 
-p{
-    font-size: 130%;
+p {
+  font-size: 130%;
 }
 
 /*-----NAVBAR-----*/
@@ -19,8 +19,8 @@ nav {
     width: 100px;
     padding-right: 40px;
   }
-  a{
-      font-size: 2em;
+  a {
+    font-size: 2em;
   }
 }
 
@@ -36,50 +36,51 @@ main {
     background-attachment: fixed;
   }
 
-  section{
+  section {
     padding: 1em;
   }
 
-  h2{
-      padding: 1em 0;
+  h2 {
+    padding: 1em 0;
   }
 
   .promos {
-    
     background-color: rgb(231, 231, 231);
   }
-
 }
 
 /*-----CARDs-----*/
 
 .card {
-    margin: 1em;
+  margin: 1em;
   img {
-
-    transition: filter 0.5S;
+    transition: filter 0.5s;
   }
 
   .card-body {
     display: none;
-
   }
 
-  .card-img-overlay{
+  .card-align {
+    position: absolute;
+    bottom: 0;
+  }
+
+  .card-img-overlay {
     visibility: hidden;
     color: white;
   }
 
   &:hover {
-      img{
-        opacity: 1;
-    filter: brightness(30%);;  
-      }
+    img {
+      opacity: 1;
+      filter: brightness(30%);
+    }
     .card-body {
       display: block;
     }
 
-    .card-img-overlay{
+    .card-img-overlay {
       visibility: visible;
     }
   }
