@@ -22,6 +22,10 @@ nav a {
 }
 
 /*-----MAIN-----*/
+main {
+  background-color: #e7e7e7;
+}
+
 main .jumbotron {
   background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.7)), to(rgba(0, 0, 0, 0.7))), url(../../ressources/hero.jpg);
   background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../../ressources/hero.jpg);
@@ -85,8 +89,14 @@ footer {
 }
 
 .container-fluid {
-  padding-top: 50px;
+  padding-top: 30px;
   padding-bottom: 50px;
   width: 750px;
+}
+
+.container-fluid h2 {
+  padding: 0;
+  padding-bottom: 20px;
+  margin: 0;
 }
 /*# sourceMappingURL=main.css.map */

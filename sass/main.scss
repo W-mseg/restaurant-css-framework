@@ -26,6 +26,8 @@ nav {
 
 /*-----MAIN-----*/
 main {
+  background-color: rgb(231, 231, 231);
+  
   .jumbotron {
     background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
       url(../../ressources/hero.jpg);
@@ -92,8 +94,17 @@ footer {
 }
 
 .container-fluid{
-  padding-top: 50px;
+  padding-top: 30px;
   padding-bottom: 50px;
   width: 750px;
-  
+
+    h2{
+    padding: 0;
+    padding-bottom: 20px;
+    margin: 0;
   }
+
+}
+
+  
+  
