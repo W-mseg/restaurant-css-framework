@@ -1,0 +1,94 @@
+/*-----FONT-----*/
+h1,
+h2,
+h3,
+h4,
+nav {
+  font-family: "Mouse Memoirs", sans-serif;
+}
+
+p {
+  font-size: 130%;
+}
+
+/*-----NAVBAR-----*/
+nav img {
+  width: 100px;
+  padding-right: 40px;
+}
+
+nav a {
+  font-size: 2em;
+}
+
+/*-----MAIN-----*/
+main .jumbotron {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.7)), to(rgba(0, 0, 0, 0.7))), url(../../ressources/hero.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../../ressources/hero.jpg);
+  color: white;
+  background-size: cover;
+  background-position: center;
+  height: 30em;
+  background-attachment: fixed;
+}
+
+main section {
+  padding: 1em;
+}
+
+main h2 {
+  padding: 1em 0;
+}
+
+main .promos {
+  background-color: #e7e7e7;
+}
+
+/*-----CARDs-----*/
+.card {
+  margin: 1em;
+}
+
+.card img {
+  -webkit-transition: -webkit-filter 0.5S;
+  transition: -webkit-filter 0.5S;
+  transition: filter 0.5S;
+  transition: filter 0.5S, -webkit-filter 0.5S;
+}
+
+.card .card-body {
+  display: none;
+}
+
+.card .card-img-overlay {
+  visibility: hidden;
+  color: white;
+}
+
+.card:hover img {
+  opacity: 1;
+  -webkit-filter: brightness(30%);
+          filter: brightness(30%);
+}
+
+.card:hover .card-body {
+  display: block;
+}
+
+.card:hover .card-img-overlay {
+  visibility: visible;
+}
+
+/*-----FOOTER-----*/
+footer {
+  color: white;
+}
+
+#bordel {
+  border: solid;
+}
+
+.row {
+  margin: 20px 0 20px 0;
+}
+/*# sourceMappingURL=carte.css.map */
