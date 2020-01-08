@@ -85,15 +85,16 @@ footer {
 }
 
 .row {
-  margin: 20px 0 20px 0;
+  margin: 10px 0 10px 0;
 }
 
 #imager {
   width: 300px;
   height: 400px;
   border-radius: 25px;
-  margin-bottom: 50px;
-  border: solid #636363 5px;
+  margin: 15px;
+  background-color: #e4a670c2;
+  color: black;
 }
 
 #imager img {
@@ -106,10 +107,31 @@ footer {
   margin-right: auto;
   margin-left: auto;
   border-radius: 20px;
-  border: solid white 5px;
 }
 
-#imager p {
+#imager h3, #imager p {
+  margin-top: 15px;
   text-align: center;
+  font-size: larger;
+}
+
+h1 {
+  margin-top: 25px;
+  text-decoration: underline;
+  margin-bottom: 25px;
+}
+
+h2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.mesbord {
+  margin-top: 25x;
+  border-radius: 25px;
 }
 /*# sourceMappingURL=carte.css.map */
