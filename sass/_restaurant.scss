@@ -1,12 +1,23 @@
-.openMap{
-    height: 100vh;
-    position: sticky;
+.restaurant {
+  .openMap {
+    height: 80vh;
+    width: 100%;
+    position: sticky !important;
     top: 0;
     right: 0;
-    background-color: orange;
+    margin-top: 20px;
+  }
 
-}
-
-.restaurant-grid{
+  .restaurant-grid {
     padding: 2em;
+  }
+
+  .card {
+    &:hover {
+      img {
+        opacity: 1;
+        filter: none;
+      }
+    }
+  }
 }
