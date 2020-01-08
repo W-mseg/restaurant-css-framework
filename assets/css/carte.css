@@ -89,7 +89,7 @@ footer {
 }
 
 #imager {
-  width: 400px;
+  width: 300px;
   height: 400px;
   border: solid;
 }
@@ -97,7 +97,7 @@ footer {
 #imager img {
   margin-top: 30px;
   width: 250px;
-  height: 250px;
+  height: 200px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -107,28 +107,5 @@ footer {
 
 #imager p {
   text-align: center;
-}
-
-@media (max-width: 768px) and (min-width: 450px) {
-  #imager {
-    width: 300px;
-    height: 300px;
-  }
-  #imager img {
-    width: 150px;
-    height: 150px;
-    border: solid;
-  }
-}
-
-@media (max-width: 450px) {
-  #imager {
-    width: 250px;
-    height: 250px;
-  }
-  #imager img {
-    width: 100px;
-    height: 100px;
-  }
 }
 /*# sourceMappingURL=carte.css.map */
