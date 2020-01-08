@@ -1,3 +1,5 @@
+@import 'restaurant';
+
 /*-----FONT-----*/
 
 h1,
@@ -60,11 +62,6 @@ main {
     transition: filter 0.5S;
   }
 
-  .card-body {
-    display: none;
-
-  }
-
   .card-img-overlay{
     visibility: hidden;
     color: white;
@@ -75,9 +72,6 @@ main {
         opacity: 1;
     filter: brightness(30%);;  
       }
-    .card-body {
-      display: block;
-    }
 
     .card-img-overlay{
       visibility: visible;

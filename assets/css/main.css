@@ -1,3 +1,16 @@
+.openMap {
+  height: 100vh;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  right: 0;
+  background-color: orange;
+}
+
+.restaurant-grid {
+  padding: 2em;
+}
+
 /*-----FONT-----*/
 h1,
 h2,
@@ -56,10 +69,6 @@ main .promos {
   transition: filter 0.5S, -webkit-filter 0.5S;
 }
 
-.card .card-body {
-  display: none;
-}
-
 .card .card-img-overlay {
   visibility: hidden;
   color: white;
@@ -69,10 +78,6 @@ main .promos {
   opacity: 1;
   -webkit-filter: brightness(30%);
           filter: brightness(30%);
-}
-
-.card:hover .card-body {
-  display: block;
 }
 
 .card:hover .card-img-overlay {
