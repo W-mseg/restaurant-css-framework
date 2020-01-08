@@ -30,7 +30,7 @@
 
 * Contact (Formulaire de contact)
 
-## Methode de travail 
+## Methode de travail :
 
 * Definir un persona du client 
 * Definir Comment on va faire les pages sur papier 
