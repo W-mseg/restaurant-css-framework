@@ -12,7 +12,7 @@ L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
   .openOn(mymap);*/
 
 var myIcon = L.icon({
-  iconUrl: "../../ressources/log.png",
+  iconUrl: "./../../ressources/log.png",
   iconSize: [38, 38],
   popupAnchor: [-3, -76],
   shadowSize: [68, 95],
