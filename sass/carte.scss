@@ -1,0 +1,43 @@
+@import "main" ;
+.row{
+    margin: 10px 0 10px 0;
+}
+#imager{
+
+    img{
+        margin-top: 30px;
+        width: 250px;
+        height: 200px;
+        display: flex;
+        margin-right: auto;
+        margin-left: auto;
+        border-radius: 20px;
+    }
+    h3,p{
+        margin-top: 15px;
+        text-align: center;
+        font-size: larger;
+    }
+    width: 300px;
+    height: 400px;
+    border-radius: 25px;
+    margin: 15px;
+    background-color: rgb(231, 231, 231);
+    color: rgb(0, 0, 0);
+}
+h1{
+    padding-top: 25px;
+    text-decoration: underline;
+    margin-bottom: 25px;
+}
+h2{
+    display: flex;
+    justify-content: center;
+}
+.mesbord{
+    margin-top: 25x;
+    border-radius: 25px;
+}
+#backcarte{
+    background-color: rgb(243, 241, 241);
+}
