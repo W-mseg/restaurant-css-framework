@@ -1,5 +1,4 @@
 @import "main" ;
-// $bgc-card : rgb();
 .row{
     margin: 10px 0 10px 0;
 }
@@ -13,7 +12,6 @@
         margin-right: auto;
         margin-left: auto;
         border-radius: 20px;
-        // border: solid rgb(255, 255, 255) 5px;
     }
     h3,p{
         margin-top: 15px;
@@ -24,15 +22,11 @@
     height: 400px;
     border-radius: 25px;
     margin: 15px;
-    // background-color: rgb(236, 236, 213);
-    background-color: #e4a670c2;
-    // background-color: #6e3c31;
-    // background-color: grey ;
+    background-color: rgb(231, 231, 231);
     color: rgb(0, 0, 0);
-    // border: solid rgba(0, 0, 0,0.3) 5px;
 }
 h1{
-    margin-top: 25px;
+    padding-top: 25px;
     text-decoration: underline;
     margin-bottom: 25px;
 }
@@ -41,7 +35,9 @@ h2{
     justify-content: center;
 }
 .mesbord{
-    // border: solid rgb(2, 2, 2);
     margin-top: 25x;
     border-radius: 25px;
+}
+#backcarte{
+    background-color: rgb(243, 241, 241);
 }
