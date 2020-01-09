@@ -77,13 +77,24 @@ main .promos {
 }
 
 .card .card-align {
+  visibility: hidden;
   position: absolute;
   bottom: 0;
+  -webkit-transition: visibility 0.5s;
+  transition: visibility 0.5s;
 }
 
 .card .card-img-overlay {
-  visibility: hidden;
   color: white;
+}
+
+.card .card-icon {
+  color: white;
+  visibility: visible;
+  font-size: 200%;
+  position: absolute;
+  top: 0;
+  right: 0;
 }
 
 .card:hover img {
@@ -92,7 +103,11 @@ main .promos {
           filter: brightness(30%);
 }
 
-.card:hover .card-img-overlay {
+.card:hover .card-icon {
+  visibility: hidden;
+}
+
+.card:hover .card-align {
   visibility: visible;
 }
 
