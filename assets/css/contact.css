@@ -125,58 +125,44 @@ footer {
   margin-right: auto;
 }
 
-.row {
-  margin: 10px 0 10px 0;
+.contact-form {
+  background-color: grey;
+  padding: 25px;
+  border-radius: 15px;
 }
 
-#imager {
-  width: 300px;
-  height: 400px;
-  border-radius: 25px;
-  margin: 15px;
-  background-color: #e7e7e7;
-  color: black;
-}
-
-#imager img {
-  margin-top: 30px;
-  width: 250px;
-  height: 200px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  margin-right: auto;
+.btn {
+  font-size: 2em;
   margin-left: auto;
-  border-radius: 20px;
+  margin-right: auto;
 }
 
-#imager h3, #imager p {
-  margin-top: 15px;
-  text-align: center;
-  font-size: larger;
+#viewportform {
+  min-height: 80vh;
 }
 
-h1 {
-  padding-top: 25px;
-  text-decoration: underline;
-  margin-bottom: 25px;
+#viewportform h2 {
+  margin-top: 4vh;
 }
 
-h2 {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+form {
+  margin-top: 5vh;
+  margin-bottom: 20px;
+  background-color: #b5b5b5 !important;
 }
 
-.mesbord {
-  margin-top: 25x;
-  border-radius: 25px;
+@media screen and (min-width: 992px) {
+  textarea {
+    height: 86% !important;
+  }
 }
 
-#backcarte {
-  background-color: #f3f1f1;
+@media screen and (max-width: 992px) {
+  .msg-col {
+    height: 200px;
+  }
+  .msg-col textarea {
+    height: 75%;
+  }
 }
-/*# sourceMappingURL=carte.css.map */
+/*# sourceMappingURL=contact.css.map */
