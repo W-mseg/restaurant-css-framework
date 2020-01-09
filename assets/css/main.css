@@ -1,3 +1,23 @@
+.restaurant .openMap {
+  height: 80vh;
+  width: 100%;
+  position: -webkit-sticky !important;
+  position: sticky !important;
+  top: 0;
+  right: 0;
+  margin-top: 20px;
+}
+
+.restaurant .restaurant-grid {
+  padding: 2em;
+}
+
+.restaurant .card:hover img {
+  opacity: 1;
+  -webkit-filter: none;
+          filter: none;
+}
+
 /*-----FONT-----*/
 h1,
 h2,
@@ -60,10 +80,6 @@ main .promos {
   transition: filter 0.5s, -webkit-filter 0.5s;
 }
 
-.card .card-body {
-  display: none;
-}
-
 .card .card-align {
   position: absolute;
   bottom: 0;
@@ -78,10 +94,6 @@ main .promos {
   opacity: 1;
   -webkit-filter: brightness(30%);
           filter: brightness(30%);
-}
-
-.card:hover .card-body {
-  display: block;
 }
 
 .card:hover .card-img-overlay {

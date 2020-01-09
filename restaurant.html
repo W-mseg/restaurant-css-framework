@@ -11,11 +11,14 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
         integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Mouse+Memoirs&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.6.0/dist/leaflet.css"
+        integrity="sha512-xwE/Az9zrjBIphAcBb3F6JVqxf46+CDLwfLMHloNu6KEQCAWi6HcDUbeOfBIptF7tcCzusKFjFw2yuvEpDL9wQ=="
+        crossorigin="" />
     <link rel="stylesheet" href="assets/css/main.css">
     <title>Restaurants</title>
 </head>
 
-<body>
+<body class="restaurant">
     <header>
         <nav class="navbar navbar-expand-md navbar-dark bg-dark ">
             <img class="bg-dark" src="ressources/log.png" alt="logo">
@@ -46,11 +49,179 @@
         </nav>
     </header>
     <main>
+        <div class="container-fluid">
+            <h1 class="display-1 text-center">Nos restaurants</h1>
+            <div class="row restaurant-grid">
+                <div class=" col-12 col-md-8">
+                    <div class="row">
+                        <div class="col-12 col-md-6 col-xl-4">
+                            <div class="card">
+                                <img src="./ressources/restaurant-devanture.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">Charleroi Sud</h5>
+                                    <p class="card-text">Quai du S, 6000 Charleroi</p>
+                                    <div class="dropdown">
+                                        <button class="btn btn-outline-warning dropdown-toggle" type="button"
+                                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                              Horaires
+                                        </button>
+                                        <div class="dropdown-menu">
+                                            <p class="dropdown-item">Lundi - 12h-23h</p>
+                                            <p class="dropdown-item">Mardi - 12h-23h</p>
+                                            <p class="dropdown-item">Mercredi - 12h-23h</p>
+                                            <p class="dropdown-item">Jeudi - 12h-23h</p>
+                                            <p class="dropdown-item">Vendredi - 12h-23h</p>
+                                            <p class="dropdown-item">Samedi - 12h-23h</p>
+                                            <p class="dropdown-item">Dimanche - 12h-23h</p>
+                                        </div>
+                                    </div>
+                                    <!-- <a href="#" class="btn btn-outline-warning btn-lg">Afficher sur la carte</a> -->
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-6 col-xl-4">
+                            <div class="card">
+                                <img src="./ressources/restaurant-devanture.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">Mont saint Guibert</h5>
+                                    <p>rue de Nil 50</p>
+                                    <div class="dropdown">
+                                        <button class="btn btn-outline-warning dropdown-toggle" type="button"
+                                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                              Horaires
+                                        </button>
+                                        <div class="dropdown-menu">
+                                            <p class="dropdown-item">Lundi - 12h-23h</p>
+                                            <p class="dropdown-item">Mardi - 12h-23h</p>
+                                            <p class="dropdown-item">Mercredi - 12h-23h</p>
+                                            <p class="dropdown-item">Jeudi - 12h-23h</p>
+                                            <p class="dropdown-item">Vendredi - 12h-23h</p>
+                                            <p class="dropdown-item">Samedi - 12h-23h</p>
+                                            <p class="dropdown-item">Dimanche - 12h-23h</p>
+                                        </div>
+                                    </div>
+                                    <!-- <a href="#" class="btn btn-outline-warning btn-lg">Afficher sur la carte</a> -->
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-6 col-xl-4">
+                            <div class="card">
+                                <img src="./ressources/restaurant-devanture.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">Mons</h5>
+                                    <p class="card-text">rue de Mons 66</p>
+                                    <div class="dropdown">
+                                        <button class="btn btn-outline-warning dropdown-toggle" type="button"
+                                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                              Horaires
+                                        </button>
+                                        <div class="dropdown-menu">
+                                            <p class="dropdown-item">Lundi - 12h-23h</p>
+                                            <p class="dropdown-item">Mardi - 12h-23h</p>
+                                            <p class="dropdown-item">Mercredi - 12h-23h</p>
+                                            <p class="dropdown-item">Jeudi - 12h-23h</p>
+                                            <p class="dropdown-item">Vendredi - 12h-23h</p>
+                                            <p class="dropdown-item">Samedi - 12h-23h</p>
+                                            <p class="dropdown-item">Dimanche - 12h-23h</p>
+                                        </div>
+                                    </div>
+                                    <!-- <a href="#" class="btn btn-outline-warning btn-lg">Afficher sur la carte</a> -->
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-6 col-xl-4">
+                            <div class="card">
+                                <img src="./ressources/restaurant-devanture.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">Lille</h5>
+                                    <p class="card-text">rue de Lille 88</p>
+                                    <div class="dropdown">
+                                        <button class="btn btn-outline-warning dropdown-toggle" type="button"
+                                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                              Horaires
+                                        </button>
+                                        <div class="dropdown-menu">
+                                            <p class="dropdown-item">Lundi - 12h-23h</p>
+                                            <p class="dropdown-item">Mardi - 12h-23h</p>
+                                            <p class="dropdown-item">Mercredi - 12h-23h</p>
+                                            <p class="dropdown-item">Jeudi - 12h-23h</p>
+                                            <p class="dropdown-item">Vendredi - 12h-23h</p>
+                                            <p class="dropdown-item">Samedi - 12h-23h</p>
+                                            <p class="dropdown-item">Dimanche - 12h-23h</p>
+                                        </div>
+                                    </div>
+                                    <!-- <a href="#" class="btn btn-outline-warning btn-lg">Afficher sur la carte</a> -->
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-6 col-xl-4">
+                            <div class="card">
+                                <img src="./ressources/restaurant-devanture.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">Namur</h5>
+                                    <p class="card-text">rue de Namur 99</p>
+                                    <div class="dropdown">
+                                        <button class="btn btn-outline-warning dropdown-toggle" type="button"
+                                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                              Horaires
+                                        </button>
+                                        <div class="dropdown-menu">
+                                            <p class="dropdown-item">Lundi - 12h-23h</p>
+                                            <p class="dropdown-item">Mardi - 12h-23h</p>
+                                            <p class="dropdown-item">Mercredi - 12h-23h</p>
+                                            <p class="dropdown-item">Jeudi - 12h-23h</p>
+                                            <p class="dropdown-item">Vendredi - 12h-23h</p>
+                                            <p class="dropdown-item">Samedi - 12h-23h</p>
+                                            <p class="dropdown-item">Dimanche - 12h-23h</p>
+                                        </div>
+                                    </div>
+                                    <!-- <a href="#" class="btn btn-outline-warning btn-lg">Afficher sur la carte</a> -->
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-6 col-xl-4">
+                            <div class="card">
+                                <img src="./ressources/restaurant-devanture.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">Bruges</h5>
+                                    <p class="card-text">rue de Brugge 110</p>
+                                    <div class="dropdown">
+                                        <button class="btn btn-outline-warning dropdown-toggle" type="button"
+                                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                              Horaires
+                                        </button>
+                                        <div class="dropdown-menu">
+                                            <p class="dropdown-item">Lundi - 12h-23h</p>
+                                            <p class="dropdown-item">Mardi - 12h-23h</p>
+                                            <p class="dropdown-item">Mercredi - 12h-23h</p>
+                                            <p class="dropdown-item">Jeudi - 12h-23h</p>
+                                            <p class="dropdown-item">Vendredi - 12h-23h</p>
+                                            <p class="dropdown-item">Samedi - 12h-23h</p>
+                                            <p class="dropdown-item">Dimanche - 12h-23h</p>
+                                        </div>
+                                    </div>
+                                    <!-- <a href="#" class="btn btn-outline-warning btn-lg">Afficher sur la carte</a> -->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-12 col-md-4 openMap" id="mapid">
+
+                </div>
+            </div>
+        </div>
     </main>
     <footer class="bg-dark footer-copyright text-center py-2">© 2020 Copyright:
         <a href="https://mdbootstrap.com/education/bootstrap/"> MDBootstrap.com</a>
     </footer>
 
+    <script src="https://unpkg.com/leaflet@1.6.0/dist/leaflet.js"
+        integrity="sha512-gZwIG9x3wUXg2hdXF6+rVkLF/0Vi9U8D2Ntg4Ga5I5BZpVkVxlJWbSQtXPSiUTtC0TjtGOmxa1AJPuV0CPthew=="
+        crossorigin=""></script>
+    <script src="./assets/js/map.js
+    "></script>
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
         integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
         crossorigin="anonymous"></script>

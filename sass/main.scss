@@ -1,3 +1,5 @@
+@import 'restaurant';
+
 /*-----FONT-----*/
 
 h1,
@@ -59,10 +61,6 @@ main {
     transition: filter 0.5s;
   }
 
-  .card-body {
-    display: none;
-  }
-
   .card-align {
     position: absolute;
     bottom: 0;
@@ -77,9 +75,6 @@ main {
     img {
       opacity: 1;
       filter: brightness(30%);
-    }
-    .card-body {
-      display: block;
     }
 
     .card-img-overlay {
