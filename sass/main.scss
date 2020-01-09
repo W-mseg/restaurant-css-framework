@@ -1,3 +1,4 @@
+@import 'restaurant';
 
 /*-----FONT-----*/
 
@@ -10,8 +11,8 @@ nav {
   font-family: "Mouse Memoirs", sans-serif;
 }
 
-p{
-    font-size: 130%;
+p {
+  font-size: 130%;
 }
 
 /*-----NAVBAR-----*/
@@ -21,13 +22,15 @@ nav {
     width: 100px;
     padding-right: 40px;
   }
-  a{
-      font-size: 2em;
+  a {
+    font-size: 2em;
   }
 }
 
 /*-----MAIN-----*/
 main {
+  background-color: rgb(231, 231, 231);
+  
   .jumbotron {
     background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
       url(../../ressources/hero.jpg);
@@ -38,50 +41,44 @@ main {
     background-attachment: fixed;
   }
 
-  section{
+  section {
     padding: 1em;
   }
 
-  h2{
-      padding: 1em 0;
+  h2 {
+    padding: 1em 0;
   }
 
   .promos {
-    
     background-color: rgb(231, 231, 231);
   }
-
 }
 
 /*-----CARDs-----*/
 
 .card {
-    margin: 1em;
+  margin: 1em;
   img {
-
-    transition: filter 0.5S;
+    transition: filter 0.5s;
   }
 
-  .card-body {
-    display: none;
-
+  .card-align {
+    position: absolute;
+    bottom: 0;
   }
 
-  .card-img-overlay{
+  .card-img-overlay {
     visibility: hidden;
     color: white;
   }
 
   &:hover {
-      img{
-        opacity: 1;
-    filter: brightness(30%);;  
-      }
-    .card-body {
-      display: block;
+    img {
+      opacity: 1;
+      filter: brightness(30%);
     }
 
-    .card-img-overlay{
+    .card-img-overlay {
       visibility: visible;
     }
   }
@@ -91,4 +88,34 @@ main {
 
 footer {
   color: white;
+  
+}
+
+.photos{
+  .container-md{
+    padding-top: 15px;
+    padding-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    min-height: 100vh;
+    
+      h2{
+      
+      padding-top: 10px;
+      padding-bottom: 10px;
+      
+    }
+
+      ul{
+        margin-top: 20px;
+        margin-right: auto;
+        margin-left: auto;
+      }
+
+      .carousel{
+        margin-left: auto;
+        margin-right: auto;
+      }
+  }
+  
 }

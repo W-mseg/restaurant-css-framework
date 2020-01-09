@@ -1,3 +1,23 @@
+.restaurant .openMap {
+  height: 80vh;
+  width: 100%;
+  position: -webkit-sticky !important;
+  position: sticky !important;
+  top: 0;
+  right: 0;
+  margin-top: 20px;
+}
+
+.restaurant .restaurant-grid {
+  padding: 2em;
+}
+
+.restaurant .card:hover img {
+  opacity: 1;
+  -webkit-filter: none;
+          filter: none;
+}
+
 /*-----FONT-----*/
 h1,
 h2,
@@ -22,6 +42,10 @@ nav a {
 }
 
 /*-----MAIN-----*/
+main {
+  background-color: #e7e7e7;
+}
+
 main .jumbotron {
   background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.7)), to(rgba(0, 0, 0, 0.7))), url(../../ressources/hero.jpg);
   background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../../ressources/hero.jpg);
@@ -50,14 +74,15 @@ main .promos {
 }
 
 .card img {
-  -webkit-transition: -webkit-filter 0.5S;
-  transition: -webkit-filter 0.5S;
-  transition: filter 0.5S;
-  transition: filter 0.5S, -webkit-filter 0.5S;
+  -webkit-transition: -webkit-filter 0.5s;
+  transition: -webkit-filter 0.5s;
+  transition: filter 0.5s;
+  transition: filter 0.5s, -webkit-filter 0.5s;
 }
 
-.card .card-body {
-  display: none;
+.card .card-align {
+  position: absolute;
+  bottom: 0;
 }
 
 .card .card-img-overlay {
@@ -71,10 +96,6 @@ main .promos {
           filter: brightness(30%);
 }
 
-.card:hover .card-body {
-  display: block;
-}
-
 .card:hover .card-img-overlay {
   visibility: visible;
 }
@@ -82,6 +103,30 @@ main .promos {
 /*-----FOOTER-----*/
 footer {
   color: white;
+}
+
+.photos .container-md {
+  padding-top: 15px;
+  padding-bottom: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  min-height: 100vh;
+}
+
+.photos .container-md h2 {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.photos .container-md ul {
+  margin-top: 20px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.photos .container-md .carousel {
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .row {
