@@ -48,7 +48,7 @@ main .jumbotron {
   color: white;
   background-size: cover;
   background-position: center;
-  height: 30em;
+  height: 100vh;
   background-attachment: fixed;
 }
 

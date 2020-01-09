@@ -124,4 +124,13 @@ footer {
   margin-left: auto;
   margin-right: auto;
 }
+
+@media screen and (max-width: 600px) {
+  .jumbotron {
+    height: 100vh !important;
+  }
+  .promos .news {
+    min-height: 100vh !important;
+  }
+}
 /*# sourceMappingURL=main.css.map */
