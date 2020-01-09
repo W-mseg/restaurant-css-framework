@@ -1,6 +1,23 @@
-# Prérequis
+Formation becode fin de parcours prairie:
 
-## Extensions 
+
+Mission et but du projet : 
+**************************
+Réaliser le site vitrine d'une franchise de restaurants en responsive  en 3 jours :
+Deadline : 9/01/2020, 17h00
+
+ Equipe : 
+ Groupe B : Amaury, Marco, Stéphane, Najwa
+
+Liens des consignes: https://github.com/becodeorg/CRL-Keller-1-18/blob/master/Projects/2.BootstrapProject/readme.md
+
+
+Contrainte:
+***********
+-Utiliser SASS et boostrap 
+
+Extensions 
+**********
 * live sass compiler
     - configuration :
     
@@ -17,35 +34,23 @@
         }
     ],
 }
+Composition du site
+********************
+Il faut au minimum :
 
-## Pages 
+Une page Accueil avec un composant Jumbotron et deux panneaux pour afficher des news (genre promotions, news ou évènements de la semaine)
+Une page Carte avec les menus présentés sous forme de liste groupée avec badges
+Une page Photos avec une galerie photos (minimum 10) et une pagination (3 photos par page)
+Une page Restaurants avec l'adresse, un plan d'accès et les heures d'ouverture d’au moins deux restaurants (c’est une franchise !)
+Une page Contact avec un formulaire de contact comprenant nom, prénom, e-mail, liste déroulante (objet du message avec un select et des options), un champs de texte (pour le message), un bouton d'envoi avec glyphicon ou Font Awesome. Les intitulés des champs sont dans la balise sémantique adéquate.
+Les étapes de travail:
+**********************
+-Concevoir la  maquette 
+-se répartir les rôles
 
-* Accueil (Necessite un Jumbotron et deux panneaux , exemple : promotion , news , evenements de la semaine etc...)
-* Carte (menu présentés sous formes de listes)
-* Photos (Galerie photos min 10 photos et pagination de max 3 photos par pages) pagination : 
 
-![Pagination](/ressources/pagination.png)
+Difficultées rencontrées:
+*************************
+Design, devoir  s'adapter aux goûts de chacun.
 
-* Restaurants (adresse du resto , pland 'acces et heures d'ouverture d'au moins deux resto car c'est une franchise)
 
-* Contact (Formulaire de contact)
-
-## Methode de travail :
-
-* Definir un persona du client 
-* Definir Comment on va faire les pages sur papier 
-* Creer les modeles demos sur adobe XD (ou logiciel de prototypage) (optionnel)
-* Definir qui travaillera sur quoi 
-
-## Regles de travail
-
-* faire des commit sur git tout les X temps 
-* a definir ( chacun sa stylesheet , une seule stylesheet ? )
-
-### contraintes + liens 
-
-* Pas de theme prefait
-* sass obligatoire
-* Responsive a tout prix (minimum pour tablette et telephone (md & sm))
-* Utiliser Bootstrap 4
-* Faire un Readme utile
