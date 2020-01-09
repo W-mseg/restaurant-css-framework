@@ -22,6 +22,10 @@ nav a {
 }
 
 /*-----MAIN-----*/
+main {
+  background-color: #e7e7e7;
+}
+
 main .jumbotron {
   background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.7)), to(rgba(0, 0, 0, 0.7))), url(../../ressources/hero.jpg);
   background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../../ressources/hero.jpg);
@@ -87,5 +91,29 @@ main .promos {
 /*-----FOOTER-----*/
 footer {
   color: white;
+}
+
+.photos .container-md {
+  padding-top: 15px;
+  padding-bottom: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  min-height: 100vh;
+}
+
+.photos .container-md h2 {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.photos .container-md ul {
+  margin-top: 20px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.photos .container-md .carousel {
+  margin-left: auto;
+  margin-right: auto;
 }
 /*# sourceMappingURL=main.css.map */

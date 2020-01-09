@@ -26,6 +26,8 @@ nav {
 
 /*-----MAIN-----*/
 main {
+  background-color: rgb(231, 231, 231);
+  
   .jumbotron {
     background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
       url(../../ressources/hero.jpg);
@@ -90,4 +92,34 @@ main {
 
 footer {
   color: white;
+  
+}
+
+.photos{
+  .container-md{
+    padding-top: 15px;
+    padding-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    min-height: 100vh;
+    
+      h2{
+      
+      padding-top: 10px;
+      padding-bottom: 10px;
+      
+    }
+
+      ul{
+        margin-top: 20px;
+        margin-right: auto;
+        margin-left: auto;
+      }
+
+      .carousel{
+        margin-left: auto;
+        margin-right: auto;
+      }
+  }
+  
 }
