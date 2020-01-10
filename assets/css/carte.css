@@ -48,7 +48,7 @@ main .jumbotron {
   color: white;
   background-size: cover;
   background-position: center;
-  height: 100vh;
+  height: 30em;
   background-attachment: fixed;
 }
 
@@ -77,13 +77,24 @@ main .promos {
 }
 
 .card .card-align {
+  visibility: hidden;
   position: absolute;
   bottom: 0;
+  -webkit-transition: visibility 0.5s;
+  transition: visibility 0.5s;
 }
 
 .card .card-img-overlay {
-  visibility: hidden;
   color: white;
+}
+
+.card .card-icon {
+  color: white;
+  visibility: visible;
+  font-size: 200%;
+  position: absolute;
+  top: 0;
+  right: 0;
 }
 
 .card:hover img {
@@ -92,7 +103,11 @@ main .promos {
           filter: brightness(30%);
 }
 
-.card:hover .card-img-overlay {
+.card:hover .card-icon {
+  visibility: hidden;
+}
+
+.card:hover .card-align {
   visibility: visible;
 }
 
@@ -123,6 +138,15 @@ footer {
 .photos .container-md .carousel {
   margin-left: auto;
   margin-right: auto;
+}
+
+@media screen and (max-width: 600px) {
+  .jumbotron {
+    height: 100vh !important;
+  }
+  .promos .news {
+    min-height: 100vh !important;
+  }
 }
 
 .row {
@@ -160,6 +184,15 @@ h1 {
   padding-top: 25px;
   text-decoration: underline;
   margin-bottom: 25px;
+}
+
+i {
+  display: -webkit-box !important;
+  display: -ms-flexbox !important;
+  display: flex !important;
+  -webkit-box-pack: center !important;
+      -ms-flex-pack: center !important;
+          justify-content: center !important;
 }
 
 h2 {
